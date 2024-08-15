@@ -17,5 +17,18 @@ export default {
       // "Green":"#64ffda",
     },
   },
-  plugins: [],
+  plugins: [
+    function ({addUtilities}) {
+      const newUtiities= {
+        ".no-scrollbar::webkit-scrollbar": {
+          display: "none"
+        },
+        ".no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
+      };
+      addUtilities(newUtiities)
+    }
+  ],
 }
