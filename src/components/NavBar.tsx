@@ -7,7 +7,7 @@ function NavBar() {
         <nav className="hidden lg:block fixed mt-3" id="navBar-1">
             <div className="flex justify-between items-center w-screen py-1 px-3">
                 <div className="w-1/2">
-                    <img src={photo} className="rounded-full w-20"/>
+                    <img src={photo} className="rounded-full w-12"/>
                 </div>
                 <div className="w-5/12">
                     <ol className="grid grid-cols-5 grid-flow-col gap-5 text-xl w-full text-Light-White text-center">
