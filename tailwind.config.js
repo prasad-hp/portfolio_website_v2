@@ -5,30 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      // "navy" : "#0a192f",
-      // "Light-Navy": "#112240",
-      // "Lightest-Navy":	"#233554",
-      // "Slate":"#8892b0",
-      // "Light-Slate":"#a8b2d1",
-      // "Lightest-Slate": "#ccd6f6",
-      // "Light-White":"#e6f1ff",
-      // "Green":"#64ffda",
+    extend: {
+      colors: {
+        'primary': '#0D1F2D',
+        'secondary': '#F0F4F8',
+        'accent': '#00A896',
+        'neutral': '#1A1A1A',
+        'white': '#FFFFFF',
+      },
+      fontFamily: {
+        'sans': ['Inter', 'sans-serif'],
+        'serif': ['Merriweather', 'serif'],
+      },
     },
   },
-  plugins: [
-    function ({addUtilities}) {
-      const newUtiities= {
-        ".no-scrollbar::webkit-scrollbar": {
-          display: "none"
-        },
-        ".no-scrollbar": {
-          "-ms-overflow-style": "none",
-          "scrollbar-width": "none",
-        },
-      };
-      addUtilities(newUtiities)
-    }
-  ],
+  plugins: [],
 }

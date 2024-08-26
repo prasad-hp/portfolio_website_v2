@@ -1,19 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 function Greet() {
   return (
-    <div>
-        <div className="grid grid-cols-5 grid-rows-5 h-5/6">
-            <div className="col-span-3 col-start-2 row-span-2 row-start-1 gap-3 lg:row-start-3">
-                <h2 className="text-3xl text-Lightest-Slate mb-10-">Hi, My Name is,</h2>
-                <h1 className="text-8xl font-bold text-Light-White mb-5">Prasad Hp</h1>
-                <h2 className="text-5xl text-Slate mb-5">I build experiences for Web.</h2>
-                <p  className="text-xl text-Lightest-Slate mb-3">I am an Engineer who likes to build experiences for the Web and
-                    learn while doing so.</p>
-            </div>
-        </div>
+    <div className="text-center max-w-4xl mx-auto">
+      <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Prasad HP</h1>
+      <h2 className="text-2xl md:text-3xl text-accent mb-6">I build modern and responsive web applications.</h2>
+      <p className="text-lg md:text-xl">A Full-Stack Developer with a passion for creating seamless user experiences and efficient backend systems.</p>
     </div>
-  )
+  );
 }
 
-export default Greet
+export default Greet;
