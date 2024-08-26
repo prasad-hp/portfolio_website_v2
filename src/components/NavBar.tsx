@@ -1,4 +1,3 @@
-import React from 'react';
 import photo from "../../public/Prasad.jpeg";
 
 function NavBar() {
@@ -14,7 +13,7 @@ function NavBar() {
           <a href="#about" className="hover:text-accent">About</a>
           <a href="#work" className="hover:text-accent">Work</a>
           <a href="#contact" className="hover:text-accent">Contact</a>
-          <a href="https://drive.google.com/file/d/19r98mcVHylhvLCpRnXuS7BWAyzY3LiRi/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-accent">Resume</a>
+          <a href="https://drive.google.com/file/d/1ORlJN3fmKYqRsd0FmxSSQJbiYzcN9p1T/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-accent">Resume</a>
         </div>
         <div className="md:hidden">
           <button id="menu-toggle" className="focus:outline-none">

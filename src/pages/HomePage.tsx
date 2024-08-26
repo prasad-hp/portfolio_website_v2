@@ -1,4 +1,3 @@
-import React from 'react';
 import NavBar from '../components/NavBar';
 import Greet from '../components/Greet';
 import About from '../components/About';
