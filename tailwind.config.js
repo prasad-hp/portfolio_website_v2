@@ -7,15 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#0D1F2D',
-        'secondary': '#F0F4F8',
-        'accent': '#00A896',
-        'neutral': '#1A1A1A',
-        'white': '#FFFFFF',
+        primary: '#1C2B39',
+        secondary: '#334E68',
+        accent: '#4F6D7A',
+        neutral: '#F0F4F8',
+        background: '#E2E8F0',
       },
       fontFamily: {
-        'sans': ['Inter', 'sans-serif'],
-        'serif': ['Merriweather', 'serif'],
+        sans: ['Nunito Sans', 'sans-serif'],
       },
     },
   },
