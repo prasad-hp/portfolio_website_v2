@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import photo from "../../public/Prasad.jpeg";
 
 function NavBar() {
@@ -23,6 +24,8 @@ function NavBar() {
           <a href="#work" className="hover:text-neutral transition duration-300">Work</a>
           <a href="#contact" className="hover:text-neutral transition duration-300">Contact</a>
           <a href="https://drive.google.com/file/d/1ORlJN3fmKYqRsd0FmxSSQJbiYzcN9p1T/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:text-neutral transition duration-300">Resume</a>
+          <a href="https://www.linkedin.com/in/prasadhp" target="_blank" rel="noopener noreferrer" className="hover:text-neutral transition duration-300"><FaLinkedin size={24} /></a>
+          <a href="https://github.com/prasad-hp" target="_blank" rel="noopener noreferrer" className="hover:text-neutral transition duration-300"><FaGithub size={24} /></a>
         </div>
         <div className="md:hidden">
           <button id="menu-toggle" onClick={() => setMenuOpen(!menuOpen)} className="focus:outline-none">
@@ -42,6 +45,8 @@ function NavBar() {
           <a href="#work" className="block px-4 py-2 text-white hover:text-neutral">Work</a>
           <a href="#contact" className="block px-4 py-2 text-white hover:text-neutral">Contact</a>
           <a href="https://drive.google.com/file/d/1ORlJN3fmKYqRsd0FmxSSQJbiYzcN9p1T/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-white hover:text-neutral">Resume</a>
+          <a href="https://www.linkedin.com/in/prasadhp" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-white hover:text-neutral">LinkedIn</a>
+          <a href="https://github.com/prasad-hp" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-white hover:text-neutral">GitHub</a>
         </motion.div>
       )}
     </nav>
